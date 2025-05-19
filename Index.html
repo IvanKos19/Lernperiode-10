@@ -1,16 +1,38 @@
 ﻿<!DOCTYPE html>
 <html lang="de">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>ToDo-Manager</title>
-</head>
-<body>
-    <h1>Meine Aufgaben</h1>
-    <input type="text" id="taskInput" placeholder="Neue Aufgabe">
-    <button onclick="addTask()">Hinzufügen</button>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 2em;
+      }
 
+      input,
+      button {
+        padding: 0.5em;
+        margin-right: 0.5em;
+      }
+
+      li {
+        margin: 0.3em 0;
+        cursor: pointer;
+      }
+
+      .error {
+        color: red;
+        margin-top: 0.5em;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Meine Aufgaben</h1>
+    <input type="text" id="taskInput" placeholder="Neue Aufgabe" />
+    <button onclick="addTask()">Hinzufügen</button>
+    <div id="errorMsg" class="error"></div>
     <ul id="taskList"></ul>
 
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
