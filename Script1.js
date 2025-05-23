@@ -1,12 +1,14 @@
-// Beim Laden: Aufgaben aus Speicher anzeigen
+// App starten: Aufgaben laden
 window.onload = function () {
     loadTasks();
 };
 
-// Aufgabe hinzufügen
+// Aufgabe hinzufügen und speichern
 function addTask() {
-    let input = document.getElementById("taskInput");
-    let taskText = input.value.trim();
+    let taskInput = document.getElementById("taskInput");
+    let dateInput = document.getElementById("dateInput");
+    let taskText = taskInput.value.trim();
+    let taskDate = dateInput.value;
     let error = document.getElementById("errorMsg");
 
     if (taskText === "") {
@@ -14,43 +16,66 @@ function addTask() {
         return;
     }
 
-    error.textContent = ""; // Fehler zurücksetzen
-    createTaskElement(taskText);
-    saveTask(taskText);
-    input.value = "";
+    error.textContent = "";
+    let task = { text: taskText, date: taskDate };
+    createTaskElement(task);
+    saveTask(task);
+
+    taskInput.value = "";
+    dateInput.value = "";
 }
 
-// Aufgabe als <li> anzeigen mit Löschfunktion
-function createTaskElement(text) {
+// Aufgaben-Element erstellen und anzeigen
+function createTaskElement(task) {
     let li = document.createElement("li");
-    li.textContent = text;
+    li.textContent = task.text + (task.date ? " (Fällig: " + task.date + ")" : "");
+
+    if (task.date && new Date(task.date) < new Date()) {
+        li.classList.add("overdue");
+    }
 
     li.onclick = function () {
         li.remove();
-        removeTask(text);
+        removeTask(task);
     };
 
     document.getElementById("taskList").appendChild(li);
 }
 
 // Aufgaben in localStorage speichern
-function saveTask(text) {
+function saveTask(task) {
     let tasks = JSON.parse(localStorage.getItem("tasks")) || [];
-    tasks.push(text);
+    tasks.push(task);
     localStorage.setItem("tasks", JSON.stringify(tasks));
 }
 
-// Aufgabe aus localStorage entfernen
-function removeTask(text) {
+// Aufgabe aus localStorage löschen
+function removeTask(taskToRemove) {
     let tasks = JSON.parse(localStorage.getItem("tasks")) || [];
-    tasks = tasks.filter(t => t !== text);
+    tasks = tasks.filter(task => !(task.text === taskToRemove.text && task.date === taskToRemove.date));
     localStorage.setItem("tasks", JSON.stringify(tasks));
 }
 
-// Aufgaben beim Start anzeigen
+// Aufgaben aus localStorage laden
 function loadTasks() {
     let tasks = JSON.parse(localStorage.getItem("tasks")) || [];
     tasks.forEach(task => createTaskElement(task));
 }
+
+// Aufgaben filtern
+function filterTasks() {
+    let filter = document.getElementById("filterInput").value.toLowerCase();
+    let listItems = document.querySelectorAll("#taskList li");
+
+    listItems.forEach(li => {
+        let text = li.textContent.toLowerCase();
+        if (text.includes(filter)) {
+            li.style.display = "";
+        } else {
+            li.style.display = "none";
+        }
+    });
+}
+
 
 
