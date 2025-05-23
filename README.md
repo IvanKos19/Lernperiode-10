@@ -47,6 +47,11 @@ Am heutigen Tag habe ich dafür gesorgt, dass die Aufgaben in meiner App dauerha
 ### Zusammenfassung
 Heute habe ich vier wichtige Verbesserungen an meiner ToDo-App umgesetzt. Zuerst habe ich ein zusätzliches Eingabefeld für das Fälligkeitsdatum integriert, wodurch Aufgaben nun optional mit einem Datum versehen werden können. Anschließend habe ich eine visuelle Markierung eingebaut, die überfällige Aufgaben automatisch rot hervorhebt. Außerdem wurde eine einfache Filterfunktion ergänzt, mit der Aufgaben nach Stichwörtern durchsucht werden können. Zum Abschluss habe ich den gesamten Code aufgeräumt, überflüssige Teile entfernt, Kommentare ergänzt und die Struktur übersichtlicher gestaltet. Dadurch ist die App jetzt funktional vollständig und benutzerfreundlicher geworden. (Wortanzahl: 91)
 
+## 6.06
+- [ ] Aufgaben bearbeiten: Vorhandene Aufgaben durch Klicken editieren (z.B. Name oder Datum nachträglich ändern).
+- [ ] Sortierfunktion einfügen: Aufgaben nach Datum (fällig zuerst) sortieren lassen.
+- [ ] Design weiter verbessern: Kleine CSS-Anpassungen vornehmen (z.B. Hover-Effekte, bessere Farben und Abstände).
+- [ ] Endgültige Projekt-Dokumentation erstellen: GitHub-README aktualisieren und abschließende Projektübersicht schreiben.
 
 
 
