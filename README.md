@@ -39,10 +39,14 @@ Heute habe ich wichtige Verbesserungen an der Benutzerfreundlichkeit meiner ToDo
 Am heutigen Tag habe ich dafür gesorgt, dass die Aufgaben in meiner App dauerhaft gespeichert werden können. Dafür habe ich localStorage genutzt und die Aufgaben beim Laden automatisch wieder angezeigt. Die bestehende Löschfunktion wurde überarbeitet, sodass Aufgaben nun auch aus dem Speicher entfernt werden, nicht nur aus der Ansicht. Als optionales Feature habe ich eine kurze Ladeanzeige beim Start eingebaut, um dem Nutzer Rückmeldung zu geben, dass Aufgaben geladen werden. Damit ist die Kernfunktionalität meiner App jetzt stabil und alltagstauglich. (Wortanzahl: 83)
 
 ## 23.05
-- [ ] Fälligkeitsdatum pro Aufgabe erfassen: Eingabefeld hinzufügen, in dem der Nutzer optional ein Datum auswählen kann.
-- [ ] Visualisierung abgelaufener Aufgaben: Aufgaben mit überschrittenem Datum werden automatisch rot markiert.
-- [ ] Such- oder Filterfunktion ergänzen: Ermöglicht es, Aufgaben nach Stichwörtern oder Datum zu filtern (einfacher Textfilter reicht).
-- [ ] Projekt aufräumen und verbessern: Unnötigen Code entfernen, Kommentare ergänzen, Struktur vereinfachen.
+- [X] Fälligkeitsdatum pro Aufgabe erfassen: Eingabefeld hinzufügen, in dem der Nutzer optional ein Datum auswählen kann.
+- [X] Visualisierung abgelaufener Aufgaben: Aufgaben mit überschrittenem Datum werden automatisch rot markiert.
+- [X] Such- oder Filterfunktion ergänzen: Ermöglicht es, Aufgaben nach Stichwörtern oder Datum zu filtern (einfacher Textfilter reicht).
+- [X] Projekt aufräumen und verbessern: Unnötigen Code entfernen, Kommentare ergänzen, Struktur vereinfachen.
+
+### Zusammenfassung
+Heute habe ich vier wichtige Verbesserungen an meiner ToDo-App umgesetzt. Zuerst habe ich ein zusätzliches Eingabefeld für das Fälligkeitsdatum integriert, wodurch Aufgaben nun optional mit einem Datum versehen werden können. Anschließend habe ich eine visuelle Markierung eingebaut, die überfällige Aufgaben automatisch rot hervorhebt. Außerdem wurde eine einfache Filterfunktion ergänzt, mit der Aufgaben nach Stichwörtern durchsucht werden können. Zum Abschluss habe ich den gesamten Code aufgeräumt, überflüssige Teile entfernt, Kommentare ergänzt und die Struktur übersichtlicher gestaltet. Dadurch ist die App jetzt funktional vollständig und benutzerfreundlicher geworden. (Wortanzahl: 91)
+
 
 
 
