@@ -48,10 +48,17 @@ Am heutigen Tag habe ich dafür gesorgt, dass die Aufgaben in meiner App dauerha
 Heute habe ich vier wichtige Verbesserungen an meiner ToDo-App umgesetzt. Zuerst habe ich ein zusätzliches Eingabefeld für das Fälligkeitsdatum integriert, wodurch Aufgaben nun optional mit einem Datum versehen werden können. Anschließend habe ich eine visuelle Markierung eingebaut, die überfällige Aufgaben automatisch rot hervorhebt. Außerdem wurde eine einfache Filterfunktion ergänzt, mit der Aufgaben nach Stichwörtern durchsucht werden können. Zum Abschluss habe ich den gesamten Code aufgeräumt, überflüssige Teile entfernt, Kommentare ergänzt und die Struktur übersichtlicher gestaltet. Dadurch ist die App jetzt funktional vollständig und benutzerfreundlicher geworden. (Wortanzahl: 91)
 
 ## 6.06
-- [ ] Aufgaben bearbeiten: Vorhandene Aufgaben durch Klicken editieren (z.B. Name oder Datum nachträglich ändern).
-- [ ] Sortierfunktion einfügen: Aufgaben nach Datum (fällig zuerst) sortieren lassen.
-- [ ] Design weiter verbessern: Kleine CSS-Anpassungen vornehmen (z.B. Hover-Effekte, bessere Farben und Abstände).
+- [X] Aufgaben bearbeiten: Vorhandene Aufgaben durch Klicken editieren (z.B. Name oder Datum nachträglich ändern).
+- [X] Sortierfunktion einfügen: Aufgaben nach Datum (fällig zuerst) sortieren lassen.
+- [X] Design weiter verbessern: Kleine CSS-Anpassungen vornehmen (z.B. Hover-Effekte, bessere Farben und Abstände).
 - [ ] Endgültige Projekt-Dokumentation erstellen: GitHub-README aktualisieren und abschließende Projektübersicht schreiben.
 
+### Zusammenfassung
+Heute habe ich entscheidende Verbesserungen an meiner ToDo-App umgesetzt. Ich integrierte eine Bearbeitungsfunktion, mit der Aufgaben nachträglich verändert werden können, beispielsweise Name oder Fälligkeitsdatum. Zusätzlich implementierte ich eine Sortierfunktion, welche Aufgaben automatisch nach ihrem Fälligkeitsdatum ordnet. Das Design wurde durch kleinere CSS-Anpassungen optimiert, wodurch die Oberfläche jetzt intuitiver und übersichtlicher wirkt. Diese Verbesserungen erhöhen den Nutzen der App im Alltag und sorgen für eine benutzerfreundlichere Bedienung. (Wortanzahl: 74)
 
+## 13.06
+- [ ] Responsive Design: Die App für Mobilgeräte optimieren, sodass sie auf Smartphones und Tablets gut nutzbar ist.
+- [ ] Aufgaben kategorisieren: Aufgaben können einer Kategorie zugeordnet werden, um die Übersichtlichkeit zu erhöhen.
+- [ ] Code-Review und Refactoring: Code aufräumen, Funktionen vereinfachen und klare Kommentare hinzufügen.
+- [ ] Benutzerfreundlichkeit weiter verbessern: Kleine Verbesserungen wie Tastenkürzel (z.B. Aufgabe hinzufügen mit Enter-Taste) integrieren.
 
