@@ -57,8 +57,17 @@ Heute habe ich vier wichtige Verbesserungen an meiner ToDo-App umgesetzt. Zuerst
 Heute habe ich entscheidende Verbesserungen an meiner ToDo-App umgesetzt. Ich integrierte eine Bearbeitungsfunktion, mit der Aufgaben nachträglich verändert werden können, beispielsweise Name oder Fälligkeitsdatum. Zusätzlich implementierte ich eine Sortierfunktion, welche Aufgaben automatisch nach ihrem Fälligkeitsdatum ordnet. Das Design wurde durch kleinere CSS-Anpassungen optimiert, wodurch die Oberfläche jetzt intuitiver und übersichtlicher wirkt. Diese Verbesserungen erhöhen den Nutzen der App im Alltag und sorgen für eine benutzerfreundlichere Bedienung. (Wortanzahl: 74)
 
 ## 13.06
-- [ ] Responsive Design: Die App für Mobilgeräte optimieren, sodass sie auf Smartphones und Tablets gut nutzbar ist.
-- [ ] Aufgaben kategorisieren: Aufgaben können einer Kategorie zugeordnet werden, um die Übersichtlichkeit zu erhöhen.
+- [X] Responsive Design: Die App für Mobilgeräte optimieren, sodass sie auf Smartphones und Tablets gut nutzbar ist.
+- [X] Aufgaben kategorisieren: Aufgaben können einer Kategorie zugeordnet werden, um die Übersichtlichkeit zu erhöhen.
 - [ ] Code-Review und Refactoring: Code aufräumen, Funktionen vereinfachen und klare Kommentare hinzufügen.
 - [ ] Benutzerfreundlichkeit weiter verbessern: Kleine Verbesserungen wie Tastenkürzel (z.B. Aufgabe hinzufügen mit Enter-Taste) integrieren.
+
+### Zusammenfassung
+Heute konnte ich zwei der geplanten Arbeitspakete erfolgreich umsetzen. Zunächst optimierte ich das responsive Design der ToDo-App, wodurch sie nun problemlos auf mobilen Geräten wie Smartphones und Tablets dargestellt und verwendet werden kann. Außerdem integrierte ich eine Möglichkeit, Aufgaben Kategorien zuzuordnen. Dies erhöht deutlich die Übersichtlichkeit und macht die Verwaltung größerer Aufgabenlisten einfacher. Die weiteren geplanten Verbesserungen zur Benutzerfreundlichkeit sowie der Code-Review konnten zeitlich noch nicht umgesetzt werden und werden in der nächsten Sitzung nachgeholt. (Wortanzahl: 80)
+
+## 20.06
+- [ ] Code-Review und Refactoring: Code aufräumen, Funktionen vereinfachen und klare Kommentare hinzufügen.
+- [ ] Benutzerfreundlichkeit weiter verbessern: Kleine Verbesserungen wie Tastenkürzel (z.B. Aufgabe hinzufügen mit Enter-Taste) integrieren.
+- [ ] Abschließendes Testing durchführen: App intensiv auf Fehler testen und Stabilität gewährleisten.
+- [ ] Endgültige Projektdokumentation erstellen: GitHub-README aktualisieren und Projektübersicht für finale Präsentation vorbereiten. 
 
